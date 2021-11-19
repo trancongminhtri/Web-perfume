@@ -2,23 +2,23 @@
 Website bán nước hoa dùng laravel framework
 
 # Cài đặt project 
-Bước 1: 
-Bước 2: 
-Bước 3: Chạy: composer update
-Bước 4: Chạy: composer require doctrine/dbal
-Bước 5: Vào file composer.json sửa "doctrine/dbal": "^3.1" thành "doctrine/dbal": "^2.5"
-Bước 6: Chạy: composer update
-Bước 7: Sao chép file .env đính kèm và dán vào trong folder PERFUME
-Bước 8: Chạy: php artisan key:generate
-Bước 9: Vào phpmyadmin chọn MySQL tạo cơ sở dữ liệu tên perfume.
-Bước 10: Chạy php artisan config:cache
-Bước 11: Chạy php artisan migrate
-Bước 12: Nhập vào cơ sở dữ liệu (từ cơ sở dữ liệu đính kèm).
-Bước 13: Chạy: php artisan serve
+<space>Bước 1: <space>
+<space>Bước 2: <space>
+<space>Bước 3: Chạy: composer update<space>
+<space>Bước 4: Chạy: composer require doctrine/dbal<space>
+<space>Bước 5: Vào file composer.json sửa "doctrine/dbal": "^3.1" thành "doctrine/dbal": "^2.5"<space>
+<space>Bước 6: Chạy: composer update<space>
+<space>Bước 7: Sao chép file .env đính kèm và dán vào trong folder PERFUME<space>
+<space>Bước 8: Chạy: php artisan key:generate<space>
+<space>Bước 9: Vào phpmyadmin chọn MySQL tạo cơ sở dữ liệu tên perfume.<space>
+<space>Bước 10: Chạy php artisan config:cache<space>
+<space>Bước 11: Chạy php artisan migrate<space>
+<space>Bước 12: Nhập vào cơ sở dữ liệu (từ cơ sở dữ liệu đính kèm).<space>
+<space>Bước 13: Chạy: php artisan serve<space>
 ------------------------------------------------------------------------------------
-Tài khoản khách hàng:
-	Tài khoản: 0306181177@caothang.edu.vn
-	Mật khẩu: 12345678
-Tài khoản quản lý:
-	Tài khoản: trancongminhtri@gmail.com
-	Mật khẩu: 12345678
+<space>Tài khoản khách hàng:<space>
+	<space>Tài khoản: 0306181177@caothang.edu.vn<space>
+	<space>Mật khẩu: 12345678<space>
+<space>Tài khoản quản lý:<space>
+	<space>Tài khoản: trancongminhtri@gmail.com<space>
+	<space>Mật khẩu: 12345678<space>
