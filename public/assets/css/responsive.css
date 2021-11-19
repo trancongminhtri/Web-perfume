@@ -1,0 +1,1257 @@
+@media (min-width: 1024px) {
+    .menu-mt-nav.hide-on-pc {
+        display: none;
+    }
+
+    .hide-on-pc {
+        display: none;
+    }
+}
+
+/* Mobile anh tablet */
+@media (max-width: 1023px) {
+    :root {
+        --header-height: 68px;
+        --navbar-height: 0;
+    }
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .wapper {
+        /* margin-top: calc(var(--header-height) + var(--header-sort-bar)); */
+        margin-top: calc(var(--header-height) + 1px);
+        overflow: hidden;
+    }
+
+    .app__container {
+        margin-top: 0;
+    }
+
+    .menu-tablet-mobile {
+        display: block;
+        cursor: pointer;
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+    }
+
+    /* Header sort bar */
+    .header__sort-bar {
+        display: flex;
+    }
+
+    .mobile-category__nav {
+        display: block;
+    }
+
+    .app__slideshow {
+        margin-top: 1px;
+    }
+
+    .home-product__title {
+        margin-left: 6px;
+    }
+
+    /* CSS danh mục nước hoa - Category Perfume*/
+    .app-container__detail {
+        margin-top: 1px;
+        padding-bottom: 8px;
+    }
+
+    .app__category {
+        margin-top: 0;
+    }
+
+    .breadcrumb {
+        margin: 0 8px;
+    }
+
+    .perfume-slider {
+        margin: 0;
+    }
+
+    .slider {
+        height: 230px;
+    }
+
+    /* .slider__img img {
+            object-fit: contain;
+        } */
+
+    /* Start CSS giỏ hàng - cart */
+
+    .app-container__cart {
+        margin-top: 0;
+    }
+
+    .perfume-cart {
+        margin-top: 1px;
+    }
+
+    .perfume-cart__product {
+        padding: 4px;
+    }
+
+    .perfume-cart__product-left {
+        width: 100%;
+    }
+
+    .perfume-cart__name {
+        font-size: 3rem;
+        margin-bottom: 8px;
+        line-height: 5rem;
+    }
+
+    .perfume-cart__title {
+        font-size: 1.2rem;
+        padding: 4px 0;
+    }
+
+    .product__img {
+        width: 50px;
+        height: 60px;
+        margin-right: 4px;
+    }
+
+    .product__name {
+        font-size: 1.2rem;
+    }
+
+    .product__promotion-name {
+        font-size: 1.2rem;
+        padding: 1px;
+    }
+
+    .quantity_num {
+        width: 26px;
+        font-size: 1.2rem;
+        padding: 0;
+        height: 20px;
+    }
+
+    .perfume-cart__content {
+        font-size: 1.2rem;
+    }
+
+    .quantity__minus,
+    .quantity__plus {
+        font-size: 1.2rem;
+        height: 20px;
+        padding: 0 6px;
+    }
+
+    .cart-pay {
+        margin-right: 12px;
+    }
+    /* End CSS giỏ hàng - cart */
+
+    /* Start CSS thông tin user */
+    .content__account-info {
+        margin-top: 1px;
+        padding: 0;
+    }
+    /* End CSS thông tin user */
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .header__cart {
+        width: 80px;
+        text-align: right;
+    }
+
+    .header__cart-notice {
+        right: -15px;
+    }
+
+    .home-filter {
+        padding: 6px 4px;
+    }
+
+    .header__logo {
+        margin-left: -18%;
+        width: 150px;
+    }
+
+    .home-filter__btn {
+        margin: 4px;
+        font-size: 1.4rem;
+        padding: 0 4px;
+    }
+
+    .home-filter__btn-render {
+        min-width: 50px;
+        width: 110px;
+    }
+
+    .home-filter__btn-trademark {
+        width: 140px;
+    }
+
+    .home-filter__btn-capacity {
+        min-width: 50px;
+        width: 110px;
+    }
+
+    .home-filter__btn-price {
+        min-width: 50px;
+        width: 150px;
+    }
+
+    .home-filter__btn.home-filter__btn-price {
+        padding-left: 6px;
+        line-height: 37px;
+    }
+
+    .custom-price {
+        margin-left: 3%;
+        margin-top: -2px;
+    }
+
+    .custom-price__max {
+        font-size: 1.2rem;
+    }
+
+    .custom-price__max input {
+        width: 40%;
+    }
+
+    .custom-list-range ul li {
+        font-size: 1.2rem;
+    }
+
+    .custom-list-range ul {
+        margin: 8px 12px;
+    }
+    .slider__img.active {
+        clip-path: circle(160% at 0 50%);
+        transition: clip-path linear 1s;
+    }
+
+    .perfume-slider__img.active {
+        clip-path: circle(230% at 0 50%);
+        transition: clip-path linear 1s;
+    }
+
+    .perfume-slider {
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 85%;
+        margin-left: 8px;
+    }
+
+    .footer-item_introduce {
+        padding: 0;
+    }
+
+    /* Start CSS chi tiết nước hoa */
+    .perfume-inf {
+        font-size: 1.4rem;
+        margin-top: 6px;
+    }
+
+    .perfume-info__price {
+        margin-top: 4px;
+        margin-right: 8px;
+    }
+
+    .perfume-info__price span {
+        font-size: 3rem;
+    }
+
+    .btn.btn__add-cart,
+    .btn.btn-buy {
+        font-size: 1.4rem;
+        width: 170px;
+        height: 46px;
+        margin-top: 12px;
+    }
+
+    .btn.btn__add-cart {
+        font-size: 1.4rem;
+    }
+
+    .icon__add-cart {
+        font-size: 1.3rem;
+    }
+
+    .perfume-rating-comment {
+        margin-right: 4px;
+    }
+
+    .perfume-slider__navigation {
+        margin-left: 8px;
+    }
+
+    .perfume-slider__navigation {
+        margin-top: 14px;
+        margin-left: 14px;
+    }
+
+    .perfume-slider__navigation-btn {
+        height: 36px;
+        width: 40px;
+        margin: 0 2px;
+    }
+
+    .perfume-rating-comment h1,
+    .perfume-posts h1 {
+        margin: 0 8px;
+    }
+
+    .perfume-reviews {
+        margin-right: 8px;
+    }
+
+    .no-js .owl-carousel,
+    .owl-carousel.owl-loaded {
+        margin-left: 0.1%;
+    }
+
+    .home-no-product {
+        height: 40vh;
+    }
+
+    .perfume-posts__content,
+    .perfume-reviews__post {
+        max-height: 700px;
+    }
+    /* End CSS Chi tiết nước hoa */
+
+    /* Start CSS giỏ hàng - cart */
+    .app-container__cart {
+        margin-top: 0;
+        min-height: 600px;
+    }
+
+    .perfume-cart {
+        margin-top: 1px;
+    }
+
+    .perfume-cart__product {
+        padding: 4px;
+    }
+
+    .perfume-cart__name {
+        font-size: 3rem;
+        margin-bottom: 8px;
+        line-height: 5rem;
+    }
+
+    .perfume-cart__title {
+        font-size: 1.2rem;
+    }
+
+    .product__img {
+        width: 50px;
+        height: 60px;
+        margin-right: 4px;
+    }
+
+    .product__name {
+        font-size: 1.2rem;
+    }
+
+    .product__promotion-name {
+        font-size: 1.2rem;
+        padding: 1px;
+    }
+
+    .quantity_num {
+        width: 26px;
+        font-size: 1.2rem;
+        padding: 0;
+        height: 20px;
+    }
+
+    .perfume-cart__content {
+        font-size: 1.2rem;
+    }
+
+    .quantity__minus,
+    .quantity__plus {
+        font-size: 1.2rem;
+        height: 20px;
+        padding: 0 6px;
+    }
+
+    .cart-pay {
+        margin-right: 12px;
+    }
+
+    /* End CSS giỏ hàng - cart*/
+
+    /* Start CSS thanh toán - pay*/
+    .perfume-cart__content.cart__total-pay {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .address-receive-info {
+        margin-right: 2px;
+    }
+
+    .address-receive__heading {
+        font-size: 1.6rem;
+        margin-left: 4px;
+    }
+
+    .address-receive {
+        margin-top: 4px;
+    }
+
+    .address-receive__title {
+        font-size: 1.4rem;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .address-receive__content {
+        font-size: 1.2rem;
+    }
+
+    .change__btn-info {
+        margin-top: 8px;
+        margin-right: 12px;
+        background-color: var(--primary-color);
+        color: #fff !important;
+    }
+    /* End CSS thanh toán - pay*/
+
+    /* Start CSS thông tin user */
+    .row_g.row_g-background.row_g-hei {
+        padding: 0;
+    }
+
+    .profile-avatar {
+        height: 90%;
+    }
+
+    .profile-avatar__img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    .add-form__input.add-form__textarea {
+        font-size: 1.2rem;
+    }
+
+    .add-form__input {
+        font-size: 1.2rem;
+    }
+
+    .add-form__group label {
+        width: 90px;
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-left: 2px;
+    }
+
+    .add-form__textarea {
+        padding: 8px 12px;
+        line-height: 16px;
+        margin-top: 16px;
+        font-size: 1.2rem;
+        border: 1px solid var(--border-color);
+        border-radius: 2px;
+        outline: none;
+        width: 100%;
+        max-height: 50px;
+    }
+
+    .list-order {
+        margin-top: 8px;
+    }
+
+    .btn__list-order-back {
+        margin-left: 0;
+    }
+
+    .add-form__controls.add-form__controls-order-list {
+        justify-content: flex-end;
+    }
+
+    .add-form__controls-back {
+        margin-right: 12px;
+    }
+
+    .bought-receive__title {
+        font-size: 1.2rem;
+    }
+
+    .bought-receive__content {
+        font-size: 1.2rem;
+    }
+
+    .bought-receive__address .bought-receive__title {
+        width: 52px;
+    }
+
+    /* End CSS thông tin user */
+
+    /* Start CSS cập nhật thông tin user */
+    .add-form__name.add-form__name-pass {
+        width: 136px;
+    }
+    /* Endt CSS cập nhật thông tin user */
+
+    /* Start CSS email user */
+    .perfume-cart__content-email,
+    .perfume-cart__title-email {
+        font-size: 1.2rem;
+        padding: 4px;
+    }
+
+    .product__name-email {
+        font-size: 1.2rem;
+    }
+
+    .email-perfume__title {
+        font-size: 1.3rem;
+    }
+
+    .perfume-cart__title-email {
+        font-size: 1.2rem;
+    }
+    /* End CSS email user */
+
+    /* Chi tiết blog */
+    .breadcrumb__link {
+        font-size: 1.2rem;
+    }
+
+    .blog-detail__title span {
+        width: 60%;
+    }
+
+    .blog-detail__content span {
+        width: 100%;
+    }
+
+    /* Page 404 */
+    .page-index {
+        margin-top: 0;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739.5px) {
+    /* Start CSS modal */
+    .auth-form {
+        width: 315px;
+    }
+
+    .auth-form__container {
+        padding: 0 16px;
+    }
+
+    .auth-form__haeding {
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    .auth-form__input {
+        margin-top: 12px;
+    }
+
+    .auth-form-aside {
+        margin-top: 8px;
+    }
+
+    /* End css modal */
+
+    .auth-form__password-show-hide {
+        top: 24px;
+    }
+
+
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .header-with-search {
+        justify-content: space-between;
+    }
+
+    .header__cart,
+    .header__logo {
+        width: unset;
+    }
+
+    .header_logo-img {
+        margin-left: 30px;
+    }
+
+    .header__cart {
+        margin-right: 56px;
+    }
+
+    .header__cart-notice {
+        right: -17px;
+    }
+
+    .header__cart-list {
+        position: fixed;
+        top: var(--header-height);
+        right: 0;
+        width: 100%;
+        padding: 0 calc((100% - 644px) / 2);
+    }
+
+    .header__cart-item {
+        width: 100%;
+    }
+
+    .home-filter {
+        display: flex;
+        flex-direction: column;
+        padding: 4px;
+    }
+
+    .home-filter__btn {
+        margin-top: 4px;
+        padding: 2px;
+        font-size: 1.2rem;
+    }
+
+    .filter__btn {
+        width: 80px;
+        margin-top: 4px;
+        margin-right: -70%;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .custom-price__max input {
+        width: 40%;
+    }
+
+    .home-filter__btn.home-filter__btn-price {
+        padding-left: 6px;
+    }
+
+    .menu-tablet-mobile {
+        right: 2.5%;
+    }
+
+    .header__cart-list::after {
+        top: -36px;
+        right: 41px;
+    }
+
+    .header__sort-link {
+        font-size: 1rem;
+        color: var(--text-color);
+        display: block;
+        line-height: var(--header-sort-bar);
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    #mobile__search-checkbox:checked ~ .header__search {
+        display: flex;
+    }
+
+    .header__search {
+        display: none;
+        position: fixed;
+        top: var(--header-height);
+        right: 0;
+        left: 0;
+        z-index: 2;
+        height: 46px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        padding: 0 16px;
+        animation: MobileSearchSideIn linear 0.3s;
+        transition: animation 0.3s;
+    }
+
+    @keyframes MobileSearchSideIn {
+        from {
+            opacity: 0;
+            top: calc(var(--header-height) / 2);
+        }
+        to {
+            opacity: 1;
+            top: var(--header-height);
+        }
+    }
+
+    .hearder__search-history {
+        position: fixed;
+        width: 100%;
+        top: cacl(var(--header-height) + var(--header-sort-bar));
+        left: 0;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+        border-radius: 2px;
+    }
+
+    .pagination-item__link {
+        --height: 28px;
+        font-size: 1.6rem;
+        min-width: 36px;
+    }
+
+    .header__sort-icon-price {
+        right: 26%;
+    }
+
+    .pagination-item {
+        margin: 0;
+    }
+
+    .app__content {
+        margin: 0 4px !important;
+        padding-top: 8px;
+    }
+
+    .slider__navigation-btn {
+        width: 6px;
+        height: 6px;
+        background-color: 4px;
+    }
+
+    .app__footer {
+        margin: 0 8px;
+    }
+
+    .header__mobile-search {
+        display: block;
+    }
+
+    .footer-item_introduce {
+        padding: 0;
+    }
+
+    .footer__heading {
+        text-align: center;
+    }
+
+    .footer-item__link {
+        justify-content: center;
+    }
+
+    .footer-item__socials {
+        text-align: center;
+    }
+
+    .footer-item__socials-ins {
+        margin-bottom: 22px;
+    }
+
+    .slider__img.active {
+        clip-path: circle(200% at 0 50%);
+        transition: clip-path linear 1s;
+    }
+
+    .perfume-slider {
+        height: 45vh;
+        width: 100%;
+    }
+
+    .row_g-background {
+        padding: 2px 0;
+        margin: 4px;
+    }
+
+    .owl-carousel .owl-stage-outer {
+        margin-left: 15px;
+    }
+
+    .perfume-info__btn {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .btn.btn__add-cart,
+    .btn.btn-buy {
+        margin: 6px;
+        font-size: 1.4rem;
+        width: 190px;
+    }
+    .auth-form.form-reviews {
+        width: 310px;
+        height: 300px;
+    }
+
+    .form-reviews__rating {
+        margin: 8px 0px;
+    }
+
+    .form-reviews__rating label {
+        font-size: 2.2rem;
+    }
+
+    .share-feelings__title {
+        font-size: 1.4rem;
+    }
+
+    .share-feelings {
+        margin: 8px;
+    }
+
+    .share-feelings__content {
+        height: 150px;
+    }
+
+    .btn-reviews__back,
+    .btn-reviews__share {
+        height: 32px;
+        min-width: 90px;
+    }
+
+    .form-btn {
+        margin-bottom: 8px;
+        margin-right: 8px;
+    }
+    .home-product.detail-product {
+        margin: 8px 4px 0;
+    }
+
+    .perfume-slider__navigation {
+        margin-left: 6px;
+    }
+
+    .no-js .owl-carousel,
+    .owl-carousel.owl-loaded {
+        margin-left: -16px;
+    }
+
+    .owl-stage-outer {
+        margin-right: -15px;
+    }
+
+    /* Start CSS giỏ hàng - cart */
+    .col_g.col_g-mar {
+        width: 100%;
+        margin-bottom: 4px;
+        background-color: #ffff;
+    }
+
+    .perfume-cart__product-img {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 8px;
+    }
+
+    .product__img-cart {
+        width: 55px;
+        height: 55px;
+        margin-left: 3px;
+        margin-right: 2px;
+    }
+    .perfume-cart__name {
+        font-size: 1.8rem;
+        line-height: 4rem;
+    }
+    .perfume-cart__product {
+        margin-left: 8px;
+        margin-right: 8px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .perfume-cart__product-cart {
+        padding: 1px 2px;
+    }
+
+    .product__name {
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+        height: 1.6rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+        margin-bottom: 0;
+    }
+
+    .perfume-cart__content {
+        justify-content: flex-start;
+        color: var(--primary-color);
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 0px;
+    }
+
+    .unit-sprice-title {
+        color: #333;
+        margin-left: 10px;
+        margin-top: -4px;
+    }
+
+    .quantity__minus,
+    .quantity__plus {
+        width: 30px;
+        height: 20px;
+    }
+
+    .quantity__minus-cart,
+    .quantity__plus-cart {
+        height: 14px;
+        line-height: 12px;
+        font-size: 12px;
+    }
+
+    .quantity_num-cart {
+        height: 14px;
+        line-height: 14px;
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .perfume-cart__content.perfume-cart__quantity {
+        justify-content: space-between;
+    }
+
+    .perfume-cart__content.perfume-cart__quantity-cart {
+        justify-content: flex-start;
+        margin-left: 12px;
+    }
+
+    .perfume-cart__btn {
+        display: flex;
+    }
+
+    .perfume-cart__trash {
+        font-size: 1.4rem;
+        margin-right: 8px;
+        padding: 0 8px;
+    }
+    /* End CSS giỏ hàng - cart */
+
+    /* Start CSS thanh toán */
+    .perfume-cart__title-num {
+        color: #000;
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-right: 4px;
+    }
+
+    .quantity_num.quantity_num-def {
+        border: none;
+        width: 10px;
+    }
+
+    .row_g.row-cart__pay {
+        margin-left: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .address-receive {
+        margin-top: 4px;
+        align-items: baseline;
+    }
+
+    .address-receive__heading {
+        font-size: 1.6rem;
+    }
+
+    .address-receive__title {
+        font-size: 1.3rem;
+        margin-left: 4px;
+        width: 45px;
+    }
+
+    .address-receive__content {
+        font-size: 1.1rem;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .address-receive__content.address-receive__addmap.address-receive__addmap-textarea {
+        height: 46px;
+        line-height: 1.8rem;
+        padding-top: 4px;
+    }
+
+    .address-receive__title.address-receive__title-numphone {
+        width: 75px;
+    }
+    
+    .address-receive__title.address-receive__title-name {
+        width: 55px;
+    }
+    
+    .address-receive__title.address-receive__title-address {
+        width: 60px;
+    }
+
+    .change__btn-info {
+        width: 60px;
+        margin-top: 8px;
+    }
+
+    .perfume-cart__content.cart__total-pay {
+        font-size: 1.4rem;
+    }
+
+    .address-receive-info {
+        border: none;
+    }
+
+    /* End CSS thanh toán */
+
+    /* Start CSS Thông tin tài khoản - user */
+    .add-form__haeding-profile-info {
+        font-size: 1.8rem;
+        font-weight: 500;
+        margin: 8px 0;
+        text-align: center;
+    }
+
+    .add-form__group label {
+        font-size: 1.2rem;
+        width: 80px;
+    }
+
+    .add-form__input {
+        height: 36px;
+        font-size: 1.2rem;
+        padding: 0 6px;
+        margin-top: 8px;
+    }
+
+    .add-form__textarea {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        max-height: 60px;
+        margin-top: 8px;
+    }
+
+    .profile-avatar__img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        order: 2;
+        margin-top: 4px;
+        margin-bottom: 0;
+    }
+
+    .profile-avatar__note {
+        font-size: 1.2rem;
+        order: 1;
+        width: 80px;
+        display: none;
+    }
+
+    .row_g.row_g-background.row_g-order {
+        display: flex;
+    }
+
+    .flex-ord1 {
+        order: 1;
+    }
+
+    .flex-ord2 {
+        order: 2;
+    }
+
+    .flex-ord3 {
+        order: 3;
+    }
+
+    .add-form__controls-back {
+        font-size: 1.2rem !important;
+        font-weight: 500;
+    }
+
+    .info__up {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+        height: 1.4rem;
+    }
+
+    .info__down {
+        margin-top: 0;
+    }
+
+    .info__down span {
+        font-size: 1.2rem;
+    }
+
+    .list-bought {
+        background-color: rgba(0, 0, 0, 0.01);
+        border: 1px dashed rgba(0, 0, 0, 0.5);
+        margin-bottom: 12px;
+    }
+
+    .bought-inf-down {
+        display: flex;
+        height: 20px;
+        margin-top: 4px;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .bought-inf {
+        display: flex;
+        height: 32px;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .bought-inf-down {
+        margin-top: 0;
+        border-bottom: 1px dashed rgba(0, 0, 0, 0.5);
+    }
+
+    .bought-status,
+    .bought-code,
+    .bought-total,
+    .bought-date {
+        height: 22px;
+        display: flex;
+        align-items: baseline;
+        justify-content: flex-end;
+    }
+
+    .bought-code {
+        height: 16px;
+    }
+
+    .bought-total {
+        height: 16px;
+    }
+
+    .bought-total__pay {
+        color: var(--primary-color);
+        margin-left: 2px !important;
+    }
+
+    .bought-total span {
+        margin-left: 0;
+    }
+
+    .bought-total__unit {
+        margin-left: 0px !important;
+        color: var(--primary-color);
+    }
+
+    .bought-status span,
+    .bought-code span,
+    .bought-total span,
+    .bought-date span,
+    .bought-date input {
+        border: none;
+        outline: none;
+        font-size: 1.1rem;
+        font-weight: 500;
+        font-style: italic;
+        background-color: transparent;
+        margin-left: 2px;
+    }
+
+    .bought-code__order {
+        margin-left: 2px;
+    }
+
+    .bought-date input {
+        width: 106px;
+    }
+
+    .bought-status__sta {
+        font-weight: 400 !important;
+        margin: 0 4px;
+        font-style: italic;
+    }
+
+    .btn__list-order-back {
+        margin-left: 18%;
+    }
+
+    .bought-receive__title {
+        width: 75px;
+    }
+
+    .bought-receive__address .bought-receive__title {
+        width: 75px;
+    }
+    /* End CSS Thông tin tài khoản - user */
+
+    /* Start CSS cập nhật thông tin user */
+    .add-form__name.add-form__name-pass {
+        width: 130px;
+    }
+
+    .event-right__img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .event-rght__btn {
+        border: none;
+        padding: 0;
+        font-size: 1.2rem;
+        color: var(--primary-color);
+        font-style: italic;
+        margin-top: 0;
+    }
+
+    .event-right__content__edit-account span {
+        font-size: 1rem;
+        display: none;
+    }
+    /* End CSS cập nhật thông tin user */
+
+    /* Chi tiết blog */
+    .breadcrumb__link {
+        font-size: 1.2rem;
+    }
+
+    .blog-detail__title span {
+        width: 100%;
+    }
+
+    .blog-detail__content {
+        margin-top: 6px;
+    }
+
+    .blog-detail__content span {
+        width: 100%;
+    }
+
+    /* Page 404 */
+    .page-index {
+        margin-top: 40px;
+    }
+
+    .perfume-posts__content,
+    .perfume-reviews__post {
+        max-height: 500px;
+    }
+
+    .perfume-reviews,
+    .perfume-rating-comment__question {
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 281px) {
+    .info__down span {
+        font-size: 1rem;
+    }
+}

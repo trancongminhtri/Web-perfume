@@ -1,0 +1,394 @@
+
+
+/* .app-container__detail {
+    margin-top: var(--header-height);
+} */
+
+@media (min-width: 1024px) {
+
+}
+
+/* Tablet */
+@media (min-width: 739px) and (max-width: 1023px) { 
+
+    .content-admin {
+        padding: 10px 4px 10px 4px;
+        margin-top: 52px;
+    }
+    .search {
+        padding: 4px;
+    }
+
+    .add-account__btn {
+        padding: 4px 2px;
+        margin-right: 2px;
+    }
+
+    .filter-position__list {
+        width: 135px;
+    }
+    
+    .search__name {
+        width: 108px;
+    }
+
+    .search__num-phone {
+        width: 108px;
+    }
+
+    
+    .search__btn {
+        padding: 4px 2px;
+        margin-right: 8px;
+    }
+
+    .slidebar {
+        width: 170px;
+    }
+
+    .slidebar a{
+        padding: 0px 12px;
+        font-size: 1.4rem;
+    }
+
+    .content-admin {
+        margin-left: 170px;
+        margin-bottom: 48px;
+        /* height: 89.4vh; */
+    }
+
+    .filter__btn {
+        margin: 0 2px;
+        /* padding: 0 4px; */
+    }
+
+    .flex__custom-avt {
+        order: 1;
+    }
+    
+    .flex__custom-profile {
+        order: 2;
+    }
+    
+    .flex__custom-list-order {
+        order: 3;
+    }
+
+    .profile-avatar__img {
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+        margin-bottom: 4px;
+        
+    }
+
+    .add-form__input.add-form__textarea.add-form__textarea-address {
+        height: 50px;
+    }
+
+    footer {
+        margin-left: 170px;
+    }
+
+    /* Danh sách nước hoa */ 
+    .search.search__perfume {
+        height: 124px;
+        width: 100%;
+    }
+    
+    .search__name.search__perfume-name {
+        width: 150px;
+    }
+    
+    .filter-position__list.filter-position__list-perfume {
+        width: 150px;
+        margin-bottom: 6px;
+    }
+
+    .wide_g.wide_g-tablet {
+        width: 100%;
+    }
+    
+    /* CSS Danh mục nước hoa - Category */
+    .add-form__input.add-form__input-category {
+        width: 100%;
+        margin: 0 8px;
+    }
+
+    .add-form__group {
+        margin-top: 8px;
+    }
+
+    .filter-position__list.filter-position__list-order-list {
+        width: 120px;
+    }
+
+    .search__name.search__name-code {
+        width: 190px !important;
+    }
+
+    .perfume-cart {
+        margin-left: 4px;
+    }
+
+    .datetime-bill__title,
+    .datetime-bill__content,
+    .update-status__title,
+    .code-bill__content,
+    .code-bill__title {
+        font-size: 1.2rem;
+    }
+    
+    .code-bill__content {
+        margin-left: 4px;
+    }
+
+    .status-bill__title {
+        font-size: 1.3rem;
+    }
+
+    .status-info {
+        height: 56px;
+    }
+
+    .address-receive__title.address-receive__title-status {
+        width: 70px;
+    }
+
+    /* Phiếu nhập */
+    .search__name.search__name-coupon {
+        width: 170px;
+        font-size: 14px;
+    }   
+
+    /* Slideshow */
+    .search__name.search__name-slideshow {
+        width: 170px;
+    }
+
+
+    .filter__coupon-date {
+        padding: 2px;
+        width: 152px;
+    }
+
+    .add-form__name-slideshow {
+        width: 150px !important;
+    }
+
+    .title__banner-slideshow {
+        width: 152px !important;
+    }
+
+    /* Thống kê */
+    .total-rating, 
+    .total-product, 
+    .total-order {
+        width: 30%;
+    }
+
+    .total-rating__label, 
+    .total-product__label, 
+    .total-order__label {
+        font-size: 1.2rem;
+        margin-left: 6px;
+    }
+
+    .total-order__unit {
+        margin-right: 6px;
+    }
+
+    .total-rating__label span, 
+    .total-product__label span, 
+    .total-order__label span {
+        font-size: 1.6rem;
+    }
+
+    .chart-doughnut {
+        display: inline-block;
+        width: 100%;
+        margin-left: 6%;
+    }
+    
+    .total-turnover {
+        width: 95%;
+        margin-left: 0px;
+    }
+
+    .total-turnover-complete {
+        margin-top: 20%;
+    }
+
+    .turnover__title {
+        font-size: 1.4rem;
+    }
+
+    .turnover__value {
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+
+    .turnover__content.turnovar__bill {
+        padding: 8px 8px;
+    }
+
+    .turnover__value span,
+    .unit-bill {
+        font-size: 1rem;
+    }
+
+    .turnover__content {
+        padding: 8.5px 8px;
+    }
+
+    .report-to__input,
+    .report-from__input {
+        width: 120px;
+        font-size: 12px;
+    }
+
+    .filter-select {
+        margin-left: 3%;
+    }
+
+    .report-select {
+        width: 100px;
+    }
+
+    .report-from{
+        margin-left:0;
+    }
+
+    .report-to {
+        margin-left: 6px;
+    }
+
+    .search__name-user{
+        width: 386px;
+        margin-bottom: 6px;
+    } 
+
+    /* Thông báo đơn hàng */
+
+    .header__noti-list {
+        right: -216px;
+    }
+    
+    .header__noti-list::after {
+        right: 200px;
+    }
+
+    .header__noti-list {
+        width: 400px;
+    }
+
+    .unit-sprice__order {
+        font-size: 1.2rem !important;
+    }
+
+    .unit-sprice__order span {
+        font-size: 1.2rem !important;
+    }
+}
+
+/* Mobile */
+/* @media screen and (max-width: 739px) {
+    .slidebar {
+        display: none;
+    }
+
+    #slidebar-btn {
+        display: none; 
+    }
+
+    .content {
+        padding: 10px 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        transition: 0s;
+    }
+
+    #check:checked ~ .content {
+        margin-left: 0;
+    }
+
+    .mobile_nav {
+        display: block;
+        width: calc(100% - 0%);
+    }
+
+    .nav_bar {
+        background:#000;
+        width: calc(100%-0%);
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .nav_bar .mobile_profile_img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .nav_bar .nav_btn {
+        color: #fff;
+        font-size: 22px;
+        cursor: pointer;
+        transition: 0.5s;
+        transition-property: color;
+    }
+
+    .nav_bar .nav_btn:hover {
+        color: #19B3D3;
+    }
+
+    .mobile-nav-items {
+        background-color: #2F323A;
+        display: none;
+    }
+
+    .mobile-nav-items a {
+        color: #fff;
+        display: block;
+        text-align: center;
+        line-height: 60px;
+        letter-spacing: 2px;
+        box-sizing: border-box;
+        transition: 0.5s;
+        transition-property: background-color;
+        font-size: 16px;
+    }
+
+    .mobile-nav-items a:hover {
+        background-color: #19B3D3;
+    }
+
+    .mobile-nav-items span{
+        padding-left: 10px;
+    }
+
+    .active {
+        display: block;
+    }
+    
+    .form-search {
+        display: none;
+    } 
+
+    .profile-img {
+        display: none;
+    }
+
+    .content-admin {
+        margin-left: 0;
+    }
+
+    footer {
+        margin-left: 0;
+    }
+
+} */
